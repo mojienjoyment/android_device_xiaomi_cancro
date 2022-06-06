@@ -20,9 +20,9 @@ $(call inherit-product, device/xiaomi/cancro/cancro.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Shipping API level
-$(call inherit-product, vendor/lineage/build/target/product/product_launched_with_j_mr2.mk)
+$(call inherit-product, vendor/baikalos/build/target/product/product_launched_with_j_mr2.mk)
 
-PRODUCT_NAME := lineage_cancro
+PRODUCT_NAME := baikalos_cancro
 PRODUCT_DEVICE := cancro
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
