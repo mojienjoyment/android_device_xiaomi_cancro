@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/cancro/cancro.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/baikalos/config/common_full_phone.mk)
 
 # Shipping API level
 $(call inherit-product, vendor/baikalos/build/target/product/product_launched_with_j_mr2.mk)
